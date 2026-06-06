@@ -13,8 +13,7 @@ public class DynamicProgrammingColumn {
 
                 solve(a, col + 1, used, sum + a[row][col]);
 
-                used[row] = false; // backtrack
-            }
+                used[row] = false;             }
         }
     }
     public static void main(String[] args) {
